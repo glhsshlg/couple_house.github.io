@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="海边日落的插画">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7d596d"/>
+      <stop offset=".38" stop-color="#d78983"/>
+      <stop offset=".66" stop-color="#f3b394"/>
+      <stop offset="1" stop-color="#ffd9ae"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9b6a78"/>
+      <stop offset=".45" stop-color="#b47b7e"/>
+      <stop offset="1" stop-color="#e6a58f"/>
+    </linearGradient>
+    <linearGradient id="sand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7d3b1"/>
+      <stop offset="1" stop-color="#e9b492"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ffe8c8" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#ffe8c8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".055"/></feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#sky)"/>
+  <circle cx="820" cy="360" r="270" fill="url(#sunGlow)"/>
+  <circle cx="820" cy="360" r="92" fill="#ffe4bc"/>
+  <path d="M0 510 Q220 485 430 505 T880 495 T1200 510 V900 H0Z" fill="url(#sea)"/>
+  <path d="M0 560 Q160 540 330 555 T690 550 T1020 560 T1200 552" fill="none" stroke="#ffddb9" stroke-opacity=".3" stroke-width="4"/>
+  <path d="M0 620 Q180 600 360 615 T760 610 T1200 618" fill="none" stroke="#ffddb9" stroke-opacity=".2" stroke-width="3"/>
+  <path d="M0 705 Q250 670 470 700 T900 690 T1200 705 V900 H0Z" fill="url(#sand)"/>
+  <path d="M0 735 Q280 705 520 730 T960 720 T1200 736" fill="none" stroke="#fff2dd" stroke-opacity=".55" stroke-width="8"/>
+  <g fill="#6d4650">
+    <path d="M498 612 q-8 4 -10 20 l-8 40 q-2 12 9 12 q9 0 11 -10 l9 -36 q4 -14 10 -18z"/>
+    <path d="M568 612 q8 4 10 20 l8 40 q2 12 -9 12 q-9 0 -11 -10 l-9 -36 q-4 -14 -10 -18z"/>
+    <path d="M508 548 q8 -8 24 -8 q17 0 26 8 q14 12 15 38 l4 35 q1 12 -10 12 q-9 0 -11 -10 l-4 -24 l-2 30 q0 11 -11 11 h-18 q-11 0 -11 -11 l-2 -30 l-4 24 q-2 10 -11 10 q-11 0 -10 -12 l4 -35 q1 -26 15 -38z"/>
+    <circle cx="505" cy="515" r="24"/>
+    <path d="M484 511 q-2 -27 23 -31 q22 -3 26 20 q-18 4 -30 0 q-9 7 -19 15z"/>
+    <circle cx="573" cy="527" r="21"/>
+    <path d="M553 527 q-1 -24 22 -26 q19 -1 21 18 q-16 1 -23 -3 q-10 7 -20 11z"/>
+    <path d="M524 566 q16 10 32 0" fill="none" stroke="#f0b59c" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g fill="none" stroke="#5c3a46" stroke-width="5" stroke-linecap="round" opacity=".65">
+    <path d="M250 235 q14 -10 28 0 q14 -10 28 0"/>
+    <path d="M330 190 q10 -7 20 0 q10 -7 20 0"/>
+    <path d="M956 245 q12 -8 24 0 q12 -8 24 0"/>
+  </g>
+  <g fill="#fff4dc" opacity=".85">
+    <circle cx="160" cy="110" r="2.5"/><circle cx="260" cy="160" r="2"/><circle cx="1060" cy="120" r="2.5"/>
+    <circle cx="990" cy="200" r="1.8"/><circle cx="390" cy="90" r="1.8"/><circle cx="1110" cy="300" r="2"/>
+  </g>
+  <rect width="1200" height="900" filter="url(#grain)" opacity=".75"/>
+</svg>

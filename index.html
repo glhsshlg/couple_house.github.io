@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fbf6f0">
+  <meta name="description" content="朝暮 —— 属于两个人的私藏小宇宙。记录纪念日、照片、日记和写给未来的信。">
+  <title>朝暮 · 把我们的故事写进时光里</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23a95f66'/%3E%3Cpath d='M32 47S14 37 14 25c0-6 5-10 10-10 4 0 7 2 8 5 1-3 4-5 8-5 5 0 10 4 10 10 0 12-18 22-18 22z' fill='%23fff6ec'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <svg class="svg-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-heart" viewBox="0 0 24 24">
+      <path d="M20.8 4.9a5.4 5.4 0 0 0-7.7 0L12 6l-1.1-1.1a5.4 5.4 0 0 0-7.7 7.7L12 21l8.8-8.4a5.4 5.4 0 0 0 0-7.7Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24">
+      <rect x="3" y="5" width="18" height="16" rx="3" fill="none" stroke="currentColor" stroke-width="1.7"/>
+      <path d="M8 3v4M16 3v4M3 10h18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+      <circle cx="8.5" cy="14.5" r="1.2" fill="currentColor"/><circle cx="12" cy="14.5" r="1.2" fill="currentColor"/><circle cx="15.5" cy="14.5" r="1.2" fill="currentColor"/>
+    </symbol>
+    <symbol id="i-camera" viewBox="0 0 24 24">
+      <path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+      <circle cx="12" cy="13.5" r="3.5" fill="none" stroke="currentColor" stroke-width="1.7"/>
+    </symbol>
+    <symbol id="i-book" viewBox="0 0 24 24">
+      <path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H11v17H6.5A2.5 2.5 0 0 0 4 22V5.5ZM20 5.5A2.5 2.5 0 0 0 17.5 3H13v17h4.5A2.5 2.5 0 0 1 20 22V5.5Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-sparkles" viewBox="0 0 24 24">
+      <path d="m12 3 1.6 5.4L19 10l-5.4 1.6L12 17l-1.6-5.4L5 10l5.4-1.6L12 3ZM19 16l.8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8L19 16Z" fill="currentColor"/>
+    </symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24">
+      <rect x="4" y="10" width="16" height="11" rx="3" fill="none" stroke="currentColor" stroke-width="1.7"/>
+      <path d="M8 10V7a4 4 0 0 1 8 0v3" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+      <circle cx="12" cy="15.5" r="1.3" fill="currentColor"/>
+    </symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24">
+      <rect x="3" y="5" width="18" height="14" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.7"/>
+      <path d="m4 7 8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-settings" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" stroke-width="1.7"/>
+      <path d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1-2.8 2.8-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.6v.2h-4V21a1.7 1.7 0 0 0-1-1.6 1.7 1.7 0 0 0-1.9.3l-.1.1L4.2 17l.1-.1a1.7 1.7 0 0 0 .3-1.9A1.7 1.7 0 0 0 3 14H2.8v-4H3a1.7 1.7 0 0 0 1.6-1 1.7 1.7 0 0 0-.3-1.9L4.2 7 7 4.2l.1.1A1.7 1.7 0 0 0 9 4.6 1.7 1.7 0 0 0 10 3V2.8h4V3a1.7 1.7 0 0 0 1 1.6 1.7 1.7 0 0 0 1.9-.3l.1-.1L19.8 7l-.1.1a1.7 1.7 0 0 0-.3 1.9 1.7 1.7 0 0 0 1.6 1h.2v4H21a1.7 1.7 0 0 0-1.6 1Z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24">
+      <path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24">
+      <path d="M5 12h14M14 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-close" viewBox="0 0 24 24">
+      <path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="i-star" viewBox="0 0 24 24">
+      <path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1 6.2-5.5-2.9-5.5 2.9 1-6.2L3 9.6l6.2-.9L12 3Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24">
+      <path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13M10 11v5M14 11v5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-pen" viewBox="0 0 24 24">
+      <path d="m4 20 4.5-1 10-10a2.1 2.1 0 0 0-3-3l-10 10L4 20ZM14 7l3 3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-download" viewBox="0 0 24 24">
+      <path d="M12 3v12m0 0 4-4m-4 4-4-4M5 19h14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-paperclip" viewBox="0 0 24 24">
+      <path d="m20 11-8.5 8.5a5 5 0 0 1-7-7L14 3a3.5 3.5 0 0 1 5 5l-9 9a2 2 0 0 1-3-3l8-8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-check" viewBox="0 0 24 24">
+      <path d="m5 12 4.5 4.5L19 6.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24">
+      <path d="m8 10 4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-arrow-left" viewBox="0 0 24 24">
+      <path d="M19 12H5m6-6-6 6 6 6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+    </symbol>
+  </svg>
+
+  <div class="page-glow page-glow-a" aria-hidden="true"></div>
+  <div class="page-glow page-glow-b" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="朝暮，回到首页">
+        <span class="brand-mark"><svg class="icon"><use href="#i-heart"></use></svg></span>
+        <span class="brand-word">朝暮<small>OUR LITTLE UNIVERSE</small></span>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        <a href="#dates" data-nav="dates">纪念日</a>
+        <a href="#album" data-nav="album">相册</a>
+        <a href="#diary" data-nav="diary">日记</a>
+        <a href="#wishes" data-nav="wishes">心愿</a>
+        <a href="#capsule" data-nav="capsule">时光胶囊</a>
+      </nav>
+      <button class="settings-trigger" id="open-settings" type="button" aria-label="打开我们的设置">
+        <svg class="icon"><use href="#i-settings"></use></svg>
+        <span>我们的设置</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span>OUR LITTLE UNIVERSE</p>
+        <h1 id="hero-title">把朝朝暮暮，<br><em>写进</em>我们的故事</h1>
+        <p class="hero-desc" id="hero-desc">给 <strong>小鹿 &amp; 阿屿</strong> 的私藏角落。收藏每一次心动，也收藏那些看似平常、却只想和你一起度过的小日子。</p>
+        <div class="hero-actions">
+          <button class="button button-primary" id="hero-write" type="button">
+            <svg class="icon"><use href="#i-pen"></use></svg>写下今天
+          </button>
+          <a class="button button-ghost" href="#album">
+            翻翻相册<svg class="icon"><use href="#i-arrow"></use></svg>
+          </a>
+        </div>
+        <div class="hero-mini-stats">
+          <div>
+            <strong id="days-together">--</strong>
+            <span>相爱第几天</span>
+          </div>
+          <i aria-hidden="true"></i>
+          <div>
+            <strong id="hero-next-days">--</strong>
+            <span>距下个纪念日</span>
+          </div>
+          <i aria-hidden="true"></i>
+          <div>
+            <strong id="photo-total-mini">0</strong>
+            <span>张珍藏瞬间</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="我们的照片与纪念日卡片">
+        <div class="hero-halo" aria-hidden="true"></div>
+        <figure class="polaroid polaroid-main">
+          <div class="polaroid-image">
+            <img src="assets/img/memory-1.svg" alt="海边日落时并肩坐着的两个人">
+          </div>
+          <figcaption>
+            <span id="hero-photo-caption">我们的第 902 个黄昏</span>
+            <small>BY THE SEA · 2026</small>
+          </figcaption>
+        </figure>
+
+        <figure class="polaroid polaroid-float" aria-hidden="true">
+          <img src="assets/img/memory-2.svg" alt="">
+          <figcaption>雨天的两杯热拿铁</figcaption>
+        </figure>
+
+        <div class="hero-note glass-card">
+          <span class="note-kicker">NEXT SPECIAL DAY</span>
+          <strong id="hero-next-title">我们的纪念日</strong>
+          <div class="note-count"><span id="hero-next-count">--</span><small>天后</small></div>
+          <span class="note-date" id="hero-next-date">正在计算中</span>
+        </div>
+
+        <div class="hero-clock glass-card">
+          <span class="live-pulse" aria-hidden="true"></span>
+          <div>
+            <span id="live-date">今天</span>
+            <strong id="live-clock">--:--:--</strong>
+          </div>
+        </div>
+
+        <span class="hero-sticker" aria-hidden="true">
+          <svg class="icon"><use href="#i-heart"></use></svg>
+        </span>
+        <span class="hero-handwriting" aria-hidden="true">你是我<br>最长的浪漫</span>
+        <span class="hero-ring" aria-hidden="true"></span>
+      </div>
+    </section>
+
+    <section class="stats-band" aria-label="我们的数据小记">
+      <div class="container stats-inner">
+        <div class="stat-item reveal">
+          <span class="stat-icon"><svg class="icon"><use href="#i-calendar"></use></svg></span>
+          <div><strong id="stat-days">--</strong><span>天，一起走过</span></div>
+        </div>
+        <div class="stat-item reveal">
+          <span class="stat-icon"><svg class="icon"><use href="#i-camera"></use></svg></span>
+          <div><strong id="stat-photos">0</strong><span>张照片，有迹可循</span></div>
+        </div>
+        <div class="stat-item reveal">
+          <span class="stat-icon"><svg class="icon"><use href="#i-book"></use></svg></span>
+          <div><strong id="stat-diaries">0</strong><span>篇日记，慢慢翻看</span></div>
+        </div>
+        <div class="stat-item reveal">
+          <span class="stat-icon"><svg class="icon"><use href="#i-sparkles"></use></svg></span>
+          <div><strong id="stat-wishes">0</strong><span>件小事，一起完成</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="dates" aria-labelledby="dates-title">
+      <div class="section-head">
+        <div class="section-heading">
+          <span class="section-index">01 <i>/</i> ANNIVERSARIES</span>
+          <h2 id="dates-title">把重要的日子，<em>放在心上</em></h2>
+          <p>时间会向前走，但有些日子值得被反复想起。</p>
+        </div>
+        <button class="button button-secondary" id="add-event" type="button">
+          <svg class="icon"><use href="#i-plus"></use></svg>添加纪念日
+        </button>
+      </div>
+
+      <div class="dates-layout">
+        <article class="anniversary-feature reveal">
+          <div class="feature-rings" aria-hidden="true"></div>
+          <div class="feature-top">
+            <span class="feature-label">OUR BEGINNING</span>
+            <svg class="icon feature-heart" aria-hidden="true"><use href="#i-heart"></use></svg>
+          </div>
+          <h3>我们在一起</h3>
+          <p class="feature-date" id="feature-date">正在计算我们的故事</p>
+          <div class="feature-days">
+            <span id="feature-days">--</span><small>天</small>
+          </div>
+          <p class="feature-sub" id="feature-sub">相爱第 -- 天</p>
+          <div class="feature-footer">
+            <div>
+              <span>下一个纪念日</span>
+              <strong id="feature-next">--</strong>
+            </div>
+            <button class="text-button light" id="edit-start" type="button">修改起点<svg class="icon"><use href="#i-arrow"></use></svg></button>
+          </div>
+        </article>
+
+        <div class="event-grid" id="event-grid"></div>
+      </div>
+    </section>
+
+    <section class="section album-section" id="album" aria-labelledby="album-title">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-heading">
+            <span class="section-index">02 <i>/</i> OUR GALLERY</span>
+            <h2 id="album-title">镜头记得，<em>我们笑过的样子</em></h2>
+            <p>喜欢的照片不用完美，只要那一刻，身边是你。</p>
+          </div>
+          <div class="head-actions">
+            <div class="filter-tabs" role="group" aria-label="相册筛选">
+              <button class="filter-tab is-active" data-photo-filter="all" type="button">全部回忆</button>
+              <button class="filter-tab" data-photo-filter="favorite" type="button">我的收藏</button>
+            </div>
+            <button class="button button-primary" id="upload-photo" type="button">
+              <svg class="icon"><use href="#i-camera"></use></svg>上传照片
+            </button>
+            <input type="file" id="photo-input" accept="image/*" multiple hidden>
+          </div>
+        </div>
+
+        <div class="upload-strip" id="drop-zone" tabindex="0" role="button" aria-label="点击或拖拽照片到这里上传">
+          <span class="upload-icon"><svg class="icon"><use href="#i-plus"></use></svg></span>
+          <p><strong>把新的回忆放进来</strong><span>点击选择，或拖拽照片到此 · 支持 JPG / PNG / WebP</span></p>
+          <span class="upload-count" id="photo-count">0 张回忆</span>
+        </div>
+
+        <div class="gallery" id="gallery" aria-live="polite"></div>
+        <div class="empty-state" id="gallery-empty" hidden>
+          <span class="empty-mark"><svg class="icon"><use href="#i-camera"></use></svg></span>
+          <h3>这里还空着一面墙</h3>
+          <p>上传你们的第一张合照，让这面墙慢慢满起来。</p>
+          <button class="button button-secondary" id="empty-upload" type="button">选择照片</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="diary" aria-labelledby="diary-section-title">
+      <div class="section-head">
+        <div class="section-heading">
+          <span class="section-index">03 <i>/</i> DEAR DIARY</span>
+          <h2 id="diary-section-title">有些话，<em>只想写给你看</em></h2>
+          <p>用 Markdown 写下心情，也可以导出成 PDF，留一页给以后的我们。</p>
+        </div>
+        <button class="button button-primary" id="new-diary" type="button">
+          <svg class="icon"><use href="#i-pen"></use></svg>写一篇日记
+        </button>
+      </div>
+
+      <div class="diary-toolbar">
+        <label class="search-field">
+          <svg class="icon" aria-hidden="true"><use href="#i-book"></use></svg>
+          <input type="search" id="diary-search" placeholder="搜索标题、内容或标签…" autocomplete="off">
+        </label>
+        <span class="diary-count" id="diary-count">共 0 篇</span>
+      </div>
+
+      <div class="diary-grid" id="diary-list" aria-live="polite"></div>
+      <div class="empty-state" id="diary-empty" hidden>
+        <span class="empty-mark"><svg class="icon"><use href="#i-book"></use></svg></span>
+        <h3>今天，想记下点什么？</h3>
+        <p>哪怕只有一句“今天也很喜欢你”，也值得被写下来。</p>
+        <button class="button button-secondary" id="empty-diary" type="button">打开空白日记</button>
+      </div>
+    </section>
+
+    <section class="section wishes-section" id="wishes" aria-labelledby="wishes-title">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-heading">
+            <span class="section-index">04 <i>/</i> SOMEDAY LIST</span>
+            <h2 id="wishes-title">和你一起，<em>把清单慢慢划掉</em></h2>
+            <p>不用一次做完。我们还有很多个明天，可以一件一件来。</p>
+          </div>
+        </div>
+
+        <div class="wish-layout">
+          <aside class="wish-progress-card reveal">
+            <span class="wish-kicker">OUR BUCKET LIST</span>
+            <div class="progress-ring" id="wish-ring">
+              <div class="progress-ring-inner">
+                <strong id="wish-percent">0%</strong>
+                <span>一起完成</span>
+              </div>
+            </div>
+            <p class="wish-summary"><strong id="wish-done">0</strong> / <span id="wish-total">0</span> 件小事</p>
+            <button class="button button-soft" id="wish-random" type="button">
+              <svg class="icon"><use href="#i-sparkles"></use></svg>随机抽一件去做
+            </button>
+            <p class="wish-hint" id="wish-hint">先写下第一件想一起做的事吧。</p>
+          </aside>
+
+          <div class="wish-panel">
+            <form class="wish-form" id="wish-form">
+              <label for="wish-input" class="sr-only">写下想一起做的事</label>
+              <input id="wish-input" type="text" maxlength="60" placeholder="想和TA一起做的事，比如：去看一次极光…" required>
+              <button class="button button-primary" type="submit"><svg class="icon"><use href="#i-plus"></use></svg>加入清单</button>
+            </form>
+            <ul class="wish-list" id="wish-list"></ul>
+            <div class="wish-empty" id="wish-empty">
+              <span>01</span>
+              <p>清单空白，<br>但我们的未来不空白。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="capsule-section" id="capsule" aria-labelledby="capsule-section-title">
+      <div class="capsule-ornament" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-head section-head-light">
+          <div class="section-heading">
+            <span class="section-index">05 <i>/</i> TIME CAPSULE</span>
+            <h2 id="capsule-section-title">寄一封，<em>给未来的我们</em></h2>
+            <p>写下此刻想说的话，封存起来。等到约定的那天，再一起拆开。</p>
+          </div>
+          <button class="button button-light" id="new-capsule" type="button">
+            <svg class="icon"><use href="#i-mail"></use></svg>封存一封信
+          </button>
+        </div>
+
+        <div class="capsule-tip">
+          <span class="capsule-tip-icon"><svg class="icon"><use href="#i-lock"></use></svg></span>
+          <p><strong>在开启日期之前，连自己也打不开。</strong>把期待留给时间，把心意留给你们。</p>
+        </div>
+
+        <div class="capsule-grid" id="capsule-list" aria-live="polite"></div>
+        <div class="capsule-empty" id="capsule-empty" hidden>
+          <span>还没有封存的信</span>
+          <p>第一封，可以写给一年后的我们。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="daily-note container" aria-label="今日心动签">
+      <div class="daily-note-inner">
+        <span class="daily-note-label">A NOTE FOR TODAY</span>
+        <p id="daily-quote">“爱不是彼此凝视，而是一起朝同一个方向看。”</p>
+        <button class="text-button" id="refresh-quote" type="button">换一句<svg class="icon"><use href="#i-sparkles"></use></svg></button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <div class="footer-title">
+        <span class="section-index light">TO BE CONTINUED</span>
+        <h2>故事还很长，<br><em>我们慢慢写。</em></h2>
+        <div class="footer-signature">
+          <span id="footer-names">小鹿 &amp; 阿屿</span>
+          <small>朝暮 · 我们的私藏小宇宙</small>
+        </div>
+      </div>
+      <div class="footer-side">
+        <p class="footer-line">愿每一个普通的日子，<br>都因为有你在，而变得值得纪念。</p>
+        <button class="footer-settings" id="footer-settings" type="button">
+          <svg class="icon"><use href="#i-settings"></use></svg>编辑我们的信息
+        </button>
+        <a class="footer-top-link" href="#top">回到顶部 <span>↑</span></a>
+        <p class="storage-note">所有回忆仅保存在当前浏览器，不会上传到服务器。更换设备或清理浏览器数据前，请记得留存重要内容。</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="footer-year">2026</span> 朝暮 · Made with love</span>
+      <span>今日也在好好相爱</span>
+    </div>
+  </footer>
+
+  <nav class="mobile-nav" aria-label="快捷导航">
+    <a href="#dates" data-mobile-nav="dates">
+      <svg class="icon"><use href="#i-calendar"></use></svg><span>纪念日</span>
+    </a>
+    <a href="#album" data-mobile-nav="album">
+      <svg class="icon"><use href="#i-camera"></use></svg><span>相册</span>
+    </a>
+    <a href="#diary" data-mobile-nav="diary">
+      <svg class="icon"><use href="#i-book"></use></svg><span>日记</span>
+    </a>
+    <a href="#wishes" data-mobile-nav="wishes">
+      <svg class="icon"><use href="#i-heart"></use></svg><span>心愿</span>
+    </a>
+    <a href="#capsule" data-mobile-nav="capsule">
+      <svg class="icon"><use href="#i-lock"></use></svg><span>胶囊</span>
+    </a>
+  </nav>
+
+  <!-- ============ 设置 ============ -->
+  <div class="modal" id="settings-modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close="settings-modal"></div>
+    <div class="modal-panel modal-sm" role="dialog" aria-modal="true" aria-labelledby="settings-title">
+      <button class="modal-close" type="button" data-close="settings-modal" aria-label="关闭设置"><svg class="icon"><use href="#i-close"></use></svg></button>
+      <span class="modal-eyebrow">ABOUT US</span>
+      <h2 id="settings-title">把这里，变成你们的样子</h2>
+      <p class="modal-intro">名字和起点只会保存在这台设备上。</p>
+      <form id="settings-form">
+        <label class="field">
+          <span>你们的名字</span>
+          <input type="text" id="setting-names" maxlength="24" placeholder="小鹿 & 阿屿" required>
+        </label>
+        <label class="field">
+          <span>在一起的第一天</span>
+          <input type="date" id="setting-date" required>
+        </label>
+        <label class="field">
+          <span>首页想说的话</span>
+          <textarea id="setting-tagline" rows="3" maxlength="90" placeholder="写一句只属于你们的介绍…"></textarea>
+        </label>
+        <button class="button button-primary button-wide" type="submit">保存我们的信息</button>
+      </form>
+      <div class="modal-divider"></div>
+      <div class="danger-zone">
+        <div><strong>示例内容</strong><p>清除首次打开时预置的插画和文字，不会删除你上传的内容。</p></div>
+        <button class="text-button danger" id="clear-demo" type="button">清除示例</button>
+      </div>
+      <div class="danger-zone">
+        <div><strong>重置整站</strong><p>删除所有照片、日记、纪念日和信件，操作不可撤销。</p></div>
+        <button class="text-button danger" id="reset-all" type="button">全部清空</button>
+      </div>
+      <p class="modal-footnote">本作品使用 IndexedDB + localStorage 本地存储，无需登录。照片会在上传前压缩，以减少占用空间。</p>
+    </div>
+  </div>
+
+  <!-- ============ 纪念日 ============ -->
+  <div class="modal" id="event-modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close="event-modal"></div>
+    <div class="modal-panel modal-sm" role="dialog" aria-modal="true" aria-labelledby="event-modal-title">
+      <button class="modal-close" type="button" data-close="event-modal" aria-label="关闭"><svg class="icon"><use href="#i-close"></use></svg></button>
+      <span class="modal-eyebrow">SAVE THE DATE</span>
+      <h2 id="event-modal-title">添加一个重要日子</h2>
+      <form id="event-form">
+        <input type="hidden" id="event-id">
+        <div class="segmented" role="group" aria-label="日子类型">
+          <label class="segment">
+            <input type="radio" name="event-kind" value="anniversary" checked>
+            <span><svg class="icon"><use href="#i-heart"></use></svg>每年纪念日</span>
+          </label>
+          <label class="segment">
+            <input type="radio" name="event-kind" value="countdown">
+            <span><svg class="icon"><use href="#i-clock"></use></svg>一次倒计时</span>
+          </label>
+        </div>
+        <label class="field">
+          <span>给这个日子起个名字</span>
+          <input type="text" id="event-title" maxlength="24" placeholder="比如：第一次见面 / 一起去冰岛" required>
+        </label>
+        <div class="form-row">
+          <label class="field">
+            <span>日期</span>
+            <input type="date" id="event-date" required>
+          </label>
+          <label class="field">
+            <span>小图标</span>
+            <select id="event-emoji">
+              <option value="🌷">🌷 花与温柔</option>
+              <option value="✈️">✈️ 出发与远方</option>
+              <option value="🎂">🎂 生日与蛋糕</option>
+              <option value="🐾">🐾 小动物</option>
+              <option value="🏠">🏠 家与日常</option>
+              <option value="✨">✨ 闪亮时刻</option>
+              <option value="🍒">🍒 甜甜的事</option>
+              <option value="🌙">🌙 夜色与月亮</option>
+            </select>
+          </label>
+        </div>
+        <label class="field">
+          <span>想写的话（可选）</span>
+          <textarea id="event-note" rows="3" maxlength="80" placeholder="那天的风、那天的我们…"></textarea>
+        </label>
+        <p class="form-hint" id="event-kind-hint">每年都会在这一天提醒你，适合生日、相识纪念日。</p>
+        <button class="button button-primary button-wide" type="submit">保存这个日子</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ============ 日记编辑器 ============ -->
+  <div class="modal" id="diary-editor-modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close="diary-editor-modal"></div>
+    <div class="modal-panel modal-xl editor-panel" role="dialog" aria-modal="true" aria-labelledby="diary-editor-title">
+      <div class="editor-topbar">
+        <div>
+          <span class="modal-eyebrow">DEAR DIARY</span>
+          <h2 id="diary-editor-title">写下今天</h2>
+        </div>
+        <button class="modal-close static" type="button" data-close="diary-editor-modal" aria-label="关闭编辑器"><svg class="icon"><use href="#i-close"></use></svg></button>
+      </div>
+      <form id="diary-form" class="diary-form">
+        <input type="hidden" id="diary-id">
+        <input type="text" class="diary-title-input" id="diary-title" maxlength="60" placeholder="给今天起个标题…">
+        <div class="diary-meta-row">
+          <label class="mini-field">
+            <span>日期</span>
+            <input type="date" id="diary-date" required>
+          </label>
+          <div class="mood-field">
+            <span>今天的心情</span>
+            <div class="mood-picker" id="mood-picker" role="group" aria-label="选择心情">
+              <button type="button" data-mood="开心" aria-pressed="false">🥰<span>开心</span></button>
+              <button type="button" data-mood="平静" aria-pressed="false">🌿<span>平静</span></button>
+              <button type="button" data-mood="想念" aria-pressed="false">🌙<span>想念</span></button>
+              <button type="button" data-mood="有点丧" aria-pressed="false">🌧️<span>有点丧</span></button>
+              <button type="button" data-mood="心动" aria-pressed="false">💗<span>心动</span></button>
+            </div>
+          </div>
+          <label class="mini-field">
+            <span>天气</span>
+            <select id="diary-weather">
+              <option value="晴">☀️ 晴</option>
+              <option value="多云">⛅ 多云</option>
+              <option value="小雨">🌧️ 小雨</option>
+              <option value="下雪">❄️ 下雪</option>
+              <option value="晚风">🍃 晚风</option>
+            </select>
+          </label>
+        </div>
+        <label class="field compact">
+          <span>标签 <small>用空格分隔，如：日常 约会 碎碎念</small></span>
+          <input type="text" id="diary-tags" maxlength="60" placeholder="日常 约会 碎碎念">
+        </label>
+
+        <div class="editor-toolbar">
+          <div class="editor-tabs" role="tablist" aria-label="编辑与预览">
+            <button class="editor-tab is-active" id="tab-write" type="button" role="tab" aria-selected="true">Markdown</button>
+            <button class="editor-tab" id="tab-preview" type="button" role="tab" aria-selected="false">预览</button>
+          </div>
+          <div class="format-tools" id="format-tools" aria-label="Markdown 快捷格式">
+            <button type="button" data-format="bold" title="加粗" aria-label="加粗"><strong>B</strong></button>
+            <button type="button" data-format="italic" title="斜体" aria-label="斜体"><em>I</em></button>
+            <button type="button" data-format="heading" title="标题" aria-label="标题">H</button>
+            <button type="button" data-format="quote" title="引用" aria-label="引用">“</button>
+            <button type="button" data-format="list" title="列表" aria-label="列表">≡</button>
+            <button type="button" data-format="link" title="链接" aria-label="链接">↗</button>
+          </div>
+          <div class="editor-file-tools">
+            <button type="button" id="import-md" title="导入 Markdown 文件"><svg class="icon"><use href="#i-download"></use></svg><span>导入 MD</span></button>
+            <button type="button" id="attach-pdf" title="添加 PDF 附件"><svg class="icon"><use href="#i-paperclip"></use></svg><span>附上 PDF</span></button>
+            <input type="file" id="md-input" accept=".md,.markdown,.txt,text/markdown,text/plain" hidden>
+            <input type="file" id="pdf-input" accept="application/pdf,.pdf" hidden>
+          </div>
+        </div>
+
+        <div class="editor-body">
+          <textarea id="diary-content" spellcheck="false" placeholder="今天发生了什么呢？&#10;&#10;支持 Markdown：# 标题、**加粗**、*斜体*、- 列表、> 引用…&#10;也可以导入 .md 文件，或添加一份 PDF 作为附件。"></textarea>
+          <div class="markdown-body preview-pane" id="diary-preview" hidden></div>
+        </div>
+
+        <div class="attachment-chip" id="diary-attachment-chip" hidden>
+          <span class="attachment-icon">PDF</span>
+          <div><strong id="attachment-name">附件.pdf</strong><small id="attachment-size">0 KB</small></div>
+          <button type="button" id="remove-attachment" aria-label="移除附件"><svg class="icon"><use href="#i-close"></use></svg></button>
+        </div>
+
+        <div class="editor-footer">
+          <span class="editor-status"><span id="diary-wordcount">0</span> 字 · 保存后仅存于本机</span>
+          <div class="editor-actions">
+            <button class="button button-ghost" type="button" data-close="diary-editor-modal">取消</button>
+            <button class="button button-primary" type="submit"><svg class="icon"><use href="#i-check"></use></svg>保存日记</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ============ 日记阅读 ============ -->
+  <div class="modal" id="diary-view-modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close="diary-view-modal"></div>
+    <div class="modal-panel modal-md reader-panel" role="dialog" aria-modal="true" aria-label="日记阅读">
+      <div class="reader-topbar">
+        <button class="round-button" type="button" data-close="diary-view-modal" aria-label="返回"><svg class="icon"><use href="#i-arrow-left"></use></svg></button>
+        <span class="reader-brand">朝暮 · DEAR DIARY</span>
+        <button class="round-button" type="button" data-close="diary-view-modal" aria-label="关闭"><svg class="icon"><use href="#i-close"></use></svg></button>
+      </div>
+      <article id="diary-view-article"></article>
+      <div class="reader-actions">
+        <button class="reader-action" id="view-attachment" type="button" hidden><svg class="icon"><use href="#i-paperclip"></use></svg>打开 PDF 附件</button>
+        <button class="reader-action" id="view-export-md" type="button"><svg class="icon"><use href="#i-download"></use></svg>导出 MD</button>
+        <button class="reader-action" id="view-export-pdf" type="button"><svg class="icon"><use href="#i-download"></use></svg>导出 PDF</button>
+        <button class="reader-action" id="view-edit" type="button"><svg class="icon"><use href="#i-pen"></use></svg>编辑</button>
+        <button class="reader-action danger" id="view-delete" type="button"><svg class="icon"><use href="#i-trash"></use></svg>删除</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ 相册灯箱 ============ -->
+  <div class="modal lightbox" id="lightbox" aria-hidden="true">
+    <div class="modal-backdrop" data-close="lightbox"></div>
+    <div class="lightbox-layout" role="dialog" aria-modal="true" aria-label="照片预览">
+      <button class="lightbox-close" type="button" data-close="lightbox" aria-label="关闭照片预览"><svg class="icon"><use href="#i-close"></use></svg></button>
+      <button class="lightbox-nav prev" id="lightbox-prev" type="button" aria-label="上一张"><svg class="icon"><use href="#i-arrow-left"></use></svg></button>
+      <figure class="lightbox-stage">
+        <img id="lightbox-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" alt="">
+      </figure>
+      <aside class="lightbox-meta">
+        <span class="modal-eyebrow">A MOMENT WE KEPT</span>
+        <span class="lightbox-date" id="lightbox-date">--</span>
+        <label class="field light-field">
+          <span>写下这张照片的故事</span>
+          <textarea id="lightbox-caption" rows="3" maxlength="80" placeholder="那天的光很好，你也是…"></textarea>
+        </label>
+        <div class="lightbox-actions">
+          <button class="button button-soft" id="lightbox-favorite" type="button"><svg class="icon"><use href="#i-star"></use></svg><span>收藏</span></button>
+          <button class="button button-primary" id="lightbox-save" type="button">保存文字</button>
+        </div>
+        <button class="text-button danger lightbox-delete" id="lightbox-delete" type="button"><svg class="icon"><use href="#i-trash"></use></svg>删除这张照片</button>
+        <span class="lightbox-count" id="lightbox-count">1 / 1</span>
+      </aside>
+      <button class="lightbox-nav next" id="lightbox-next" type="button" aria-label="下一张"><svg class="icon"><use href="#i-arrow"></use></svg></button>
+    </div>
+  </div>
+
+  <!-- ============ 时光胶囊 ============ -->
+  <div class="modal" id="capsule-modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close="capsule-modal"></div>
+    <div class="modal-panel modal-sm" role="dialog" aria-modal="true" aria-labelledby="capsule-modal-title">
+      <button class="modal-close" type="button" data-close="capsule-modal" aria-label="关闭"><svg class="icon"><use href="#i-close"></use></svg></button>
+      <span class="modal-eyebrow">SEAL IT WITH LOVE</span>
+      <h2 id="capsule-modal-title">写一封给未来的信</h2>
+      <p class="modal-intro">在约定日期之前，内容会被温柔地封存起来。</p>
+      <form id="capsule-form">
+        <input type="hidden" id="capsule-id">
+        <label class="field">
+          <span>信的标题</span>
+          <input type="text" id="capsule-title" maxlength="40" placeholder="写给一年后的我们" required>
+        </label>
+        <label class="field">
+          <span>什么时候可以拆开</span>
+          <input type="date" id="capsule-date" required>
+        </label>
+        <label class="field">
+          <span>想对未来的我们说什么</span>
+          <textarea id="capsule-content" rows="7" maxlength="2000" placeholder="此刻的我们…&#10;&#10;希望读到这封信的时候，我们已经…" required></textarea>
+        </label>
+        <p class="form-hint">信件保存在当前浏览器中，请在开启前保留好站点数据。</p>
+        <button class="button button-primary button-wide" type="submit"><svg class="icon"><use href="#i-lock"></use></svg>封存这封信</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="modal" id="capsule-view-modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close="capsule-view-modal"></div>
+    <div class="modal-panel modal-md capsule-reader" role="dialog" aria-modal="true" aria-labelledby="capsule-view-title">
+      <button class="modal-close" type="button" data-close="capsule-view-modal" aria-label="关闭"><svg class="icon"><use href="#i-close"></use></svg></button>
+      <span class="modal-eyebrow" id="capsule-view-kicker">OPENED LETTER</span>
+      <h2 id="capsule-view-title">给未来的我们</h2>
+      <div class="capsule-letter-meta" id="capsule-view-meta"></div>
+      <div class="capsule-letter-body" id="capsule-view-body"></div>
+      <div class="capsule-reader-actions">
+        <button class="text-button danger" id="capsule-view-delete" type="button"><svg class="icon"><use href="#i-trash"></use></svg>删除这封信</button>
+        <button class="text-button" id="capsule-view-close" type="button">好好收下 <svg class="icon"><use href="#i-heart"></use></svg></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ 通用确认 ============ -->
+  <div class="modal" id="confirm-modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close="confirm-modal"></div>
+    <div class="modal-panel modal-xs confirm-panel" role="alertdialog" aria-modal="true" aria-labelledby="confirm-title" aria-describedby="confirm-message">
+      <span class="confirm-icon"><svg class="icon"><use href="#i-heart"></use></svg></span>
+      <h2 id="confirm-title">确认一下</h2>
+      <p id="confirm-message">这个操作不可以撤销。</p>
+      <div class="confirm-actions">
+        <button class="button button-ghost" id="confirm-cancel" type="button">再想想</button>
+        <button class="button button-danger" id="confirm-ok" type="button">确认删除</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <noscript>
+    <div class="noscript-note">请开启 JavaScript，才能使用朝暮的纪念日、相册和日记功能。</div>
+  </noscript>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

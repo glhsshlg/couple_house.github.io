@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="春日野餐的插画">
+  <defs>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9fae8d"/>
+      <stop offset="1" stop-color="#61765f"/>
+    </linearGradient>
+    <linearGradient id="sky4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b7cbd1"/>
+      <stop offset=".7" stop-color="#e4d8bc"/>
+      <stop offset="1" stop-color="#f3ddbd"/>
+    </linearGradient>
+    <linearGradient id="blanket" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3e5d0"/>
+      <stop offset="1" stop-color="#e8cfb2"/>
+    </linearGradient>
+    <filter id="grain4">
+      <feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".05"/></feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#sky4)"/>
+  <circle cx="920" cy="220" r="92" fill="#f8e5bf" opacity=".85"/>
+  <g fill="#f7f0dc" opacity=".75">
+    <path d="M120 200 q40 -44 90 -16 q28 -46 82 -18 q46 -8 54 34 q-112 26 -226 0z"/>
+    <path d="M760 150 q32 -38 78 -14 q28 -36 72 -10 q36 -4 42 30 q-96 20 -192 -6z"/>
+  </g>
+  <path d="M0 470 Q200 410 420 462 T820 450 T1200 470 V900 H0Z" fill="#8ea081"/>
+  <path d="M0 560 Q240 500 490 550 T960 540 T1200 560 V900 H0Z" fill="url(#grass)"/>
+  <g fill="#b8c69e" opacity=".8">
+    <path d="M80 660 q10 -46 22 0 q12 -38 22 0 q8 -30 16 0z"/>
+    <path d="M1040 640 q10 -46 22 0 q12 -38 22 0 q8 -30 16 0z"/>
+    <path d="M340 560 q8 -34 18 0 q10 -28 18 0z"/>
+    <path d="M920 560 q8 -34 18 0 q10 -28 18 0z"/>
+  </g>
+  <g>
+    <path d="M190 690 L980 610 L1080 820 L250 880Z" fill="url(#blanket)"/>
+    <g stroke="#caa98a" stroke-width="8" opacity=".5">
+      <path d="M350 680 L420 860"/><path d="M520 660 L590 846"/><path d="M700 640 L760 830"/><path d="M870 625 L920 812"/>
+    </g>
+    <g stroke="#b98e73" stroke-width="6" opacity=".35">
+      <path d="M230 760 L1040 700"/><path d="M270 820 L1060 770"/>
+    </g>
+  </g>
+  <g>
+    <ellipse cx="550" cy="740" rx="150" ry="24" fill="#5d6f59" opacity=".35"/>
+    <path d="M430 710 q120 -38 240 0 l-30 92 q-90 26 -180 0z" fill="#c48d74"/>
+    <path d="M442 708 q110 28 220 0" fill="none" stroke="#e6bda2" stroke-width="10"/>
+    <path d="M648 724 q44 -8 36 26 q-6 22 -36 16" fill="none" stroke="#c48d74" stroke-width="16" stroke-linecap="round"/>
+    <path d="M492 672 q-18 -30 6 -54 q24 -24 4 -50" fill="none" stroke="#fff4dd" stroke-opacity=".55" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g>
+    <path d="M340 760 q42 -58 84 0 l-12 60 q-30 12 -60 0z" fill="#e8b96e"/>
+    <path d="M430 764 q38 -44 76 0 l-10 56 q-28 10 -56 0z" fill="#e3ae64"/>
+    <path d="M370 720 q-2 -36 28 -50 q30 14 28 50 q-28 14 -56 0z" fill="#f3ce91"/>
+    <path d="M410 718 q-2 -32 24 -44 q26 12 24 44 q-24 12 -48 0z" fill="#f0c585"/>
+  </g>
+  <g>
+    <path d="M760 690 q36 -68 74 -8 q26 44 66 4 q22 -10 16 24 q-8 40 -76 38 q-72 0 -80 -58z" fill="#778968"/>
+    <path d="M844 680 q-28 -80 18 -138 q16 -20 22 4 q22 74 -14 138z" fill="#5f745a"/>
+    <path d="M858 688 q46 -48 100 -20 q22 12 6 28 q-42 34 -106 -8z" fill="#839474"/>
+  </g>
+  <g>
+    <rect x="700" y="800" width="126" height="88" rx="10" fill="#5c4a42" transform="rotate(-8 763 844)"/>
+    <circle cx="763" cy="844" r="30" fill="#3e3533" transform="rotate(-8 763 844)"/>
+    <circle cx="763" cy="844" r="18" fill="#92a5a0" transform="rotate(-8 763 844)"/>
+    <rect x="808" y="790" width="20" height="16" rx="4" fill="#c9a06b" transform="rotate(-8 818 798)"/>
+  </g>
+  <g fill="#f1cdd0">
+    <circle cx="180" cy="590" r="9"/><circle cx="220" cy="620" r="7"/><circle cx="1090" cy="590" r="8"/><circle cx="1130" cy="630" r="6"/><circle cx="940" cy="540" r="6"/>
+  </g>
+  <rect width="1200" height="900" filter="url(#grain4)" opacity=".8"/>
+</svg>
